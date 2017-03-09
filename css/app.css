@@ -1,0 +1,36 @@
+*{margin:0 padding:0;font-family:"microsoft yahei";}
+html,body{background:#fff;}
+ul,ol{list-style: none;}
+.fx{width:50px;height:44px;line-height: 44px; color:#fff;display:block;}
+.imgs{height:210px;width:100%;}
+.imgs img{height:210px;position:relative;width:100%;}
+.tx{width:48px;height:48px;border:1px solid #fff;background:url(../img/tx.png)no-repeat center; border-radius: 4px; position:absolute;right:16px;top:146px;}
+.user{position:absolute;text-shadow:0 1px 1px rgba（225,255,255,0.7）;right:72px;top:170px;color:#fff;font-size: 16px;}
+.point{width:10px;height:10px;background:red;border:1px solid red;border-radius:50%;position:absolute;right:15px;top:145px;}
+.content{width:100%;height:auto;}
+.lis{height:auto;padding-top:16px;padding-left:16px;}
+.lis .ls{width:40px;height:40px;border:1px solid #fff;border-radius:4px;}
+.lis .rs span{display: block;font-size: 15px;font-weight: 900;color:#41454d;}
+.lis .rs i{font-style:normal;display: block;font-size: 15px;font-weight: 900;color:#41454d;}
+.reply {height: 52px;line-height: 52px;background-color: #F7F7F7;margin-right: 16px;}
+.comment {margin-top: 10px;}
+.comment p{cursor: pointer;}
+.lss img{border-radius:4px;margin: 6px;}
+.lis ul li .rss{font-size: 13px;color:#41454d;}
+.lis ul li p img{vertical-align: middle;}
+.lis ul li .p2{font-size: 13px;padding-left: 70px;}
+
+.lis ul li .p3{width:100%;height:20px;font-size:12px;}
+.lis ul li .p4{width:95%;height:auto;background: #f6eaea;padding-right: 16px;}
+.lis ul li .p4 span{color:#5bafff;font-size: 14px;}
+
+.reply-img {background-color: #FFFFFF;margin-right: 16px;}
+.reply-img img{margin-right:4px;padding-top:4px;}
+
+/**
+ * 防止ul之间的间距
+ */
+.mui-table-view {
+	margin-bottom: -10px;
+	padding-bottom: 10px;
+}
